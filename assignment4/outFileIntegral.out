@@ -1,0 +1,45 @@
+Starting job - Sat Feb 17 22:19:02 CST 2024
+--------------------------------
+Execution with OMP_NUM_THREADS=1
+N =  1000000000
+Time elapsed For Loop: 385.448421 seconds
+Integral Results: 3.1415926535810987
+Time elapsed Numpy: 16.886268 seconds
+Integral Results: 3.1415926535897345
+Time elapsed Numexpr: 13.020282 seconds
+Integral Results: 3.1415926535810987
+Executing Python Script
+--------------------------------
+Execution with OMP_NUM_THREADS=2
+N =  1000000000
+Time elapsed For Loop: 340.280922 seconds
+Integral Results: 3.1415926535810987
+Time elapsed Numpy: 16.795321 seconds
+Integral Results: 3.1415926535897345
+Time elapsed Numexpr: 10.223850 seconds
+Integral Results: 3.1415926535810987
+Executing Python Script
+--------------------------------
+Execution with OMP_NUM_THREADS=4
+N =  1000000000
+Time elapsed For Loop: 355.304471 seconds
+Integral Results: 3.1415926535810987
+Time elapsed Numpy: 17.127144 seconds
+Integral Results: 3.1415926535897345
+Time elapsed Numexpr: 7.223461 seconds
+Integral Results: 3.1415926535810987
+Executing Python Script
+--------------------------------
+Execution with OMP_NUM_THREADS=8
+N =  1000000000
+Time elapsed For Loop: 351.199214 seconds
+Integral Results: 3.1415926535810987
+Time elapsed Numpy: 17.952033 seconds
+Integral Results: 3.1415926535897345
+Time elapsed Numexpr: 5.596481 seconds
+Integral Results: 3.1415926535810987
+Executing Python Script
+All executions complete
+--------------------------------
+Calculations ended
+Total CPU time 1543221 [ms]
